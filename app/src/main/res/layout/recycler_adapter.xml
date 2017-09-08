@@ -1,0 +1,36 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/medicineName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:layout_weight="2"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:maxLines="3"
+        android:padding="8dp"
+        android:text="Medicine Name"
+        android:textColor="#fff" />
+
+
+    <TextView
+        android:id="@+id/medicineQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:maxLines="3"
+        android:padding="8dp"
+        android:text="Quantity"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
